@@ -1,0 +1,52 @@
+<html>
+<head>
+<title> biodata pribadi</title>
+<body style = "background-color: violet;">
+<style>
+table{
+	border: 1px solid black;
+	background-color : #FF99CC;
+	}
+</style>
+<form method="post" action="jawabanartiket.php">
+
+<table style= "border : 10px solid #CC0066;">
+	<tr>
+		<td colspan="5"><h1>ARTIKEL</h1></td>
+	</tr>
+	<tr>
+			<td>Judul Artikel</td>
+			<td>:</td>
+			<td><center><input type="text" name="judul" placeholder="Judul"><center></td>
+	</tr>
+	<tr>
+			<td><label for="program">Tema </td></label>
+			<td>:</td><td>
+			<select name="tema">
+				<option value="Dongeng">Romantis</option>
+				<option value="Romantis">Dongeng</option>
+				<option value="Politik">Misteri</option>
+				<option value="Olahraga">Petualang</option>
+				<option value="Misteri">Sinema</option>
+			</select>
+	</tr>
+	<tr>
+			<td>Nama Pengarang</td>
+			<td>:</td>
+			<td><center><input type="text" name="nama" placeholder="pengarang"><center></td>
+	</tr>
+
+	<tr>
+		<td>Isi</td>
+		<td>:</td><td>
+		<textarea cols=20 rows=10 name="isi"></textarea><br>
+	<tr>
+		<td colspan="3"><center><input type="submit" name="submit" value="KIRIM"></center></td>
+	</tr>
+	
+</table>
+</center>	
+</form>
+</body>
+</head>
+</html>
